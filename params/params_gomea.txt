@@ -1,0 +1,28 @@
+train path_to_training_set.dat
+test path_to_test_set.dat
+
+# Termination Criteria
+time -1
+generations 10
+evaluations -1
+
+# Problem setting
+prob symbreg
+functions +_-_*_p/
+erc
+
+# GP-GOMEA specific
+gomea	# This enables GP-GOMEA over traditional GP
+gomfos LT	# This sets the FOS for GP-GOMEA
+
+# Initialization
+initmaxtreeheight 2
+syntuniqinit 2000
+popsize 2000
+
+# Other
+seed 1
+parallel 1
+
+
+
