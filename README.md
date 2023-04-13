@@ -7,8 +7,7 @@ Explainable artificial intelligence (XAI) is an important and rapidly expanding 
 
 ## Related research work
 This package represents the code supplement to the paper titled “Multi-modal multi-objective model-based genetic programming to find multiple diverse high-quality models”,
-authored by Evi Sijben, Tanja Alderliesten and Peter Bosman. 
-which has been published in the proceedings of GECCO 2022.
+authored by Evi Sijben, Tanja Alderliesten and Peter Bosman, which has been published in the proceedings of GECCO 2022.
 
 If you use our code for academic purposes, please support our research by citing:
 ```
