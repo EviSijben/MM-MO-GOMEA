@@ -36,6 +36,7 @@ SingleNode::SingleNode(const SingleNode& orig) : Node(NodeType::Single)  {
     parent = NULL;
     children.clear();
     cached_fitness = orig.cached_fitness;
+    cached_objectives = orig.cached_objectives; 
 }
 
 SingleNode::~SingleNode() {
