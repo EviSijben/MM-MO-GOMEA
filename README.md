@@ -27,7 +27,7 @@ to install the needed dependencies on ubuntu run `chmod +x deps_ubuntu; sudo ./d
 The project is built using CMake. Run `make` (or `make debug` for a debug build). If you have `ninja-build` installed, you can use it to speed up builds, by prefixing the make command with `GEN=ninja` (e.g. `GEN=ninja make release`).
 
 ## C++ executable
-After running `make`, you will find a C++ executable called `main` in `build/release/src/` that you can run using a parameter setting file, for example, `gpgomea --file params_gomea_multimodal.txt`.
+After running `make`, you will find a C++ executable called `main` in `build/release/src/` that you can run using a parameter setting file, for example, `./build/release/src/main --file params_gomea_multimodal.txt`.
 
 ### Data set structure
 Datasets must be organized as follows; each row is an example, and each column is a feature, with exception for the last column, which is the target variable. Values should be separated by spaces. Do not include any textual header.
