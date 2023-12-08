@@ -124,9 +124,8 @@ bool MOArchive::NonDominated(Node *offspring) {
 }
 
 bool MOArchive::DiversityAdded(Node *offspring, size_t idx) {
-    if (arma::mean(arma::mean(arma::square(
-            offspring->GetOutput(fitness->TrainX, false) - mo_archive[idx]->GetOutput(fitness->TrainX, false)))) ==
-        0) {
+    arma::mat diff = offspring->GetOutput(fitness->TrainX, false) - mo_archive[idx]->GetOutput(fitness->TrainX, false);
+    if ( arma::mean(arma::vectorise((diff))) == 0 ){
         return false;
     }else return true;
 }
