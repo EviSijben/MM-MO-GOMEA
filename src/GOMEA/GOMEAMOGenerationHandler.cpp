@@ -153,7 +153,7 @@ GOMEAMOGenerationHandler::K_leader_means(std::vector<Node *> &population) {
     size_t initalised_k = 0;
     std::vector<size_t> idx_leaders;
     // take a random objective
-    size_t random_obj = std::round(arma::randu());
+    size_t random_obj = std::round(arma::randu()*(nr_objs-1));
 
     size_t idx_min = *remaining_solutions.begin();
     for (size_t x: remaining_solutions) {
