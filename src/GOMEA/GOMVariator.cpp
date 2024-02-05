@@ -201,7 +201,7 @@ Node *GOMVariator::GOMMO(Node *&sol, const std::vector<Node *> &donors, const st
             std::pair<bool, bool> check_changes = extreem ? check_changes_SO(offspring, back_obj,  false, obj)
                                                           : check_changes_MO(offspring, back_obj, false, mo_archive);
             if(check_changes.second){
-                improved = false;
+                improved = true;
             }
             if (check_changes.first) {
                 // keep changes
