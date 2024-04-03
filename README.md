@@ -14,7 +14,7 @@ If you use our code for academic purposes, please support our research by citing
 @inproceedings{sijben2022multi,
 title={Multi-modal multi-objective model-based genetic programming to find multiple diverse high-quality models},
 author={Sijben, EMC and Alderliesten, Tanja and Bosman, Peter AN},
-booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},https://github.com/EviSijben/3M-GOMEA/blob/master/overview.jpeg
+booktitle={Proceedings of the Genetic and Evolutionary Computation Conference}
 pages={440--448},
 year={2022}
 }
